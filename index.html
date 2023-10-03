@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Social Hive</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	 <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+<div id="header">
+	<div class="container">
+
+		<!----------nav---------->
+
+		<nav class="sticky" id="navbar">
+			<img src="logo.png" class="logo">
+			<ul>
+				<li><a href="#header">Home</li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects and Services</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<!----------end-of-nav---------->
+
+
+		<div class="header-text">
+			<section id="welcome-section" class="welcome-section">
+				<p>SOCIAL HIVE</p>
+			    <h1>Hello! <span>Social Hive</span><br> is a hatdog</h1>
+			</section>
+		</div>
+	</div>
+</div>
+
+<!----------about---------->
+
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="user.png">
+			</div>
+			<div class="about-col-2">
+				<h1 class="subtitle">About <span>Us</span></h1>
+				<p> this is a paragraph about us </p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!----------end-of-about---------->	
+
+<!----------projects and services---------->
+
+<div id="projects">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1-2">
+				<img src="surveyform.png">
+			</div>
+			<div class="about-col-2">
+				<h1 class="subtitle">Finished <span>Projects</span></h1>
+				<hr>
+				<p><li><a href="https://thoumust.github.io/surveyform/" target="_blank">Survey Form</li></p>
+				<p><li><a href="https://thoumust.github.io/tributepagemd/" target="_blank">Tribute Page</li></p>
+				<p><li><a href="https://thoumust.github.io/technicaldocumentation/" target="_blank">Technical Documentation</li></p>
+				<p><li><a href="https://thoumust.github.io/productlandingpage/" target="_blank">Product Landing Page</li></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!----------end-of-projects---------->
+
+     <!----------contacts---------->
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+        <p>Contacts</p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://www.facebook.com/lesgsf"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/thoumust"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a href="tel:+639550388450" class="btn contact-details"
+          ><i class="fas fa-mobile-alt"></i> Call me</a
+        >
+      </div>
+    </section>
+
+    <!----------end-of-contact---------->
+</body>
+<script>
+	window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+</script>
+<!----------footer---------->
+
+<footer>
+      <p>
+        In compliance with Web Technologies.
+      </p>
+      <p>
+        &copy; Created for
+        <a href="uc-bcf.com" target="_blank"
+          >Web Technologies 2022<i class="fab fa-free-code-camp"></i
+        ></a>
+      </p>
+    </footer>
+
+   <!----------end-of-footer---------->
+
+</html>
